@@ -1,0 +1,6 @@
+@SteamRoxa_HostAddress = http://localhost:5290
+
+GET {{SteamRoxa_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
