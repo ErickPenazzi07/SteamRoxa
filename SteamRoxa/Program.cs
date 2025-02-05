@@ -88,7 +88,7 @@ app.UseSwaggerUI();
 
 //MAPEAR OS ENDPOINTS PADRAO DO IDENTITY
 app.MapGroup("/User").MapIdentityApi<IdentityUser>();
-app.MapGroup("/Roles").MapIdentityApi<IdentityRole>();
+//app.MapGroup("/Roles").MapIdentityApi<IdentityRole>();
 
 app.UseHttpsRedirection();
 //permitir a autentificação e autorização de qualquer origem
